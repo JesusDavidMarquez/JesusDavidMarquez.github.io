@@ -37,49 +37,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-#hero {
-    background: #007BFF;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
-}
-
-#hero h1 {
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-}
-
-#hero p {
-    font-size: 1.2rem;
-}
-
-#menu-interno {
-    background: #e9e9e9;
-    padding: 1rem;
-    text-align: center;
-}
-
-#menu-interno ul {
-    list-style: none;
-    padding: 0;
-}
-
-#menu-interno ul li {
-    display: block;
-    margin: 0.5rem 0;
-}
-
-#menu-interno ul li a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#menu-interno ul li a:hover {
-    text-decoration: underline;
-}
-
-section {
+main {
     padding: 2rem 1rem;
     max-width: 800px;
     margin: 2rem auto;
@@ -88,9 +46,31 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    margin-bottom: 1rem;
+main h1 {
     color: #007BFF;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1rem auto;
+    border-radius: 8px;
+}
+
+main h2 {
+    color: #007BFF;
+    margin-bottom: 0.5rem;
+}
+
+main ul {
+    margin-bottom: 1rem;
+}
+
+main ul li {
+    margin-bottom: 0.5rem;
 }
 
 footer {
