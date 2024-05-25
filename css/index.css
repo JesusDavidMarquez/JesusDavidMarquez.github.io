@@ -78,7 +78,13 @@ nav ul li a:hover {
 #menu-interno ul li a:hover {
     text-decoration: underline;
 }
-
+main img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1rem auto;
+    border-radius: 8px;
+}
 section {
     padding: 2rem 1rem;
     max-width: 800px;
